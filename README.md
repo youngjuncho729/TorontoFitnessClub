@@ -15,9 +15,11 @@ Detailed project description can be found in `Toronto_Fitness_Club_part_1.pdf` a
 
 ```bash
 # Install backend
-source ./backend/startup.sh
+cd backend
+source ./startup.sh
 # Install frontend
-source ./frontend/startup.sh
+cd frontend
+source ./startup.sh
 
 # Install both backend and frontend
 cd TorontoFitnessClub
@@ -28,11 +30,13 @@ source ./startup.sh
 
 ```bash
 # Run backend
-source ./backend/run.sh
+cd backend
+source ./run.sh
 # Run frontend
-source ./frontend/run.sh
+cd frontend
+source ./run.sh
 
-# Run both backend and frontend
+# or Run both backend and frontend
 cd TorontoFitnessClub
 source ./run.sh
 ```
